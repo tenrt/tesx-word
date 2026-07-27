@@ -205,4 +205,75 @@ footer{
 .feature-card p{
     color:#cbd5e1;
     line-height:1.8;
+}.plans{
+    padding:90px 8%;
+    background:#0b1120;
+    text-align:center;
+}
+
+.plan-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    margin-top:50px;
+}
+
+.plan-card{
+    background:#1e293b;
+    padding:40px 30px;
+    border-radius:20px;
+    transition:.3s;
+    position:relative;
+}
+
+.plan-card:hover{
+    transform:translateY(-10px);
+}
+
+.featured{
+    border:2px solid #3b82f6;
+}
+
+.badge{
+    position:absolute;
+    top:15px;
+    right:15px;
+    background:#3b82f6;
+    color:#fff;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+}
+
+.price{
+    font-size:42px;
+    font-weight:700;
+    color:#22c55e;
+    margin:20px 0;
+}
+
+.plan-card ul{
+    list-style:none;
+    padding:0;
+    margin:25px 0;
+}
+
+.plan-card ul li{
+    margin:12px 0;
+    color:#cbd5e1;
+}
+
+.plan-btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#3b82f6;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.plan-btn:hover{
+    background:#2563eb;
 }
