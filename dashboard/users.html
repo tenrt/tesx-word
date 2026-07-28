@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Users | Tesx Demo Dashboard</title>
+
+<link rel="stylesheet" href="dashboard.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>TESX</h2>
+
+<ul>
+
+<li><a href="dashboard.html"><i class="fa-solid fa-chart-line"></i> Dashboard</a></li>
+
+<li><a href="users.html"><i class="fa-solid fa-users"></i> Users</a></li>
+
+<li><a href="portfolio.html"><i class="fa-solid fa-wallet"></i> Portfolio</a></li>
+
+<li><a href="analytics.html"><i class="fa-solid fa-chart-pie"></i> Analytics</a></li>
+
+<li><a href="settings.html"><i class="fa-solid fa-gear"></i> Settings</a></li>
+
+</ul>
+
+</div>
+
+<div class="main">
+
+<header>
+
+<h1>Demo Users</h1>
+
+<input
+type="text"
+id="search"
+placeholder="Search users...">
+
+</header>
+
+<div class="table">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Email</th>
+
+<th>Country</th>
+
+<th>Status</th>
+
+</tr>
+
+</thead>
+
+<tbody id="userTable">
+
+<tr>
+
+<td>Alex Johnson</td>
+
+<td>alex@example.com</td>
+
+<td>United States</td>
+
+<td><span class="active">Active</span></td>
+
+</tr>
+
+<tr>
+
+<td>Sarah Williams</td>
+
+<td>sarah@example.com</td>
+
+<td>Canada</td>
+
+<td><span class="active">Active</span></td>
+
+</tr>
+
+<tr>
+
+<td>David Smith</td>
+
+<td>david@example.com</td>
+
+<td>United Kingdom</td>
+
+<td><span class="pending">Pending</span></td>
+
+</tr>
+
+<tr>
+
+<td>Emma Brown</td>
+
+<td>emma@example.com</td>
+
+<td>Australia</td>
+
+<td><span class="active">Active</span></td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+
+</html>
