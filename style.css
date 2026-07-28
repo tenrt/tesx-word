@@ -314,5 +314,93 @@ nav{
 .show{
     opacity:1;
     transform:translateY(0);
+}/* Contact Page */
+
+.contact-container{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:40px;
+
+padding:80px 8%;
+
+}
+
+.contact-info{
+
+background:#1e293b;
+
+padding:40px;
+
+border-radius:20px;
+
+}
+
+.contact-info p{
+
+margin:20px 0;
+
+color:#cbd5e1;
+
+}
+
+.contact-info i{
+
+color:#3b82f6;
+
+margin-right:10px;
+
+}
+
+.contact-form{
+
+background:#1e293b;
+
+padding:40px;
+
+border-radius:20px;
+
+}
+
+.contact-form input,
+
+.contact-form textarea{
+
+width:100%;
+
+padding:15px;
+
+margin-bottom:20px;
+
+border:none;
+
+border-radius:10px;
+
+background:#0f172a;
+
+color:white;
+
+}
+
+.contact-form button{
+
+border:none;
+
+cursor:pointer;
+
+width:100%;
+
+}
+
+@media(max-width:900px){
+
+.contact-container{
+
+grid-template-columns:1fr;
+
+}
+
 }
 }
